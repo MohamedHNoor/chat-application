@@ -6,8 +6,8 @@ import Cookies from 'universal-cookie';
 import { ChannelContainer, ChannelListContainer, Auth } from './components';
 
 // styles
-import 'stream-chat-react/dist/css/index.css';
 import './App.css';
+import 'stream-chat-react/dist/css/index.css';
 
 const cookies = new Cookies();
 

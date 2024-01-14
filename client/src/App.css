@@ -225,7 +225,7 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  .str-chat-channel-list.team {
+  .str-chat-channel-list.team.light {
     position: unset;
     left: unset;
     top: unset;
@@ -938,6 +938,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
+  height: 100%;
 }
 
 .team-channel-list__message {
@@ -1778,6 +1780,7 @@ div.rta__autocomplete.str-chat__emojisearch {
   }
 
   .channel-list__list__wrapper {
+    /* background-color: #fff; */
     width: 100%;
   }
 
